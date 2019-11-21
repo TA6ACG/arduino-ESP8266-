@@ -34,3 +34,7 @@ void loop() {
   delay(20000); //hangi sıklıkla yenilenmesini istediğimizi belirliyoruz (20sn)
  
 }
+
+//bağlantı şekli pinler altta kalacak şekilde dik bakacak olursak 3.3V / SDA / SCL / BOŞ /GND biçiminde sıralanmıştır
+//güç girişlerinizi yaptıktan sonra sda yı sda pinine scl yi scl pinine bağlayarak kullanabilirsiniz 
+//ilk kurulumda 12. ve 13. satırları aktive ederek anlık zamanı bir kereliğine ayarlayıp tekrar kapatabilirsiniz.
